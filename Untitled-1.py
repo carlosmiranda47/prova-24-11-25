@@ -1,0 +1,8 @@
+biblioteca = ["Harry Potter e a pedra filosofal(J.K.Rowling:1997)", 
+ "A sociedade do anel(j.R.R:1954)", 
+"O sol é para todos(Harper Lee:1960)",
+"O Codigo Da Vinci(Dan Brown:2003)", 
+ "it-A Coisa(Stephen King:1985) \n"]
+with open("livros.txt", 'a') as arquivo:
+    for item in biblioteca:
+        arquivo.write(item)
