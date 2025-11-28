@@ -5,4 +5,5 @@ biblioteca = ["Harry Potter e a pedra filosofal(J.K.Rowling:1997)",
  "it-A Coisa(Stephen King:1985) \n"]
 with open("livros.txt", 'a') as arquivo:
     for item in biblioteca:
-        arquivo.write(item)
+
+        arquivo.write(item + '\n')
